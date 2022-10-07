@@ -2,37 +2,36 @@ a{
     cursor: pointer;
 }
 
-.header{
+header{
     background-color: #2f476d;
- width: 100%;
- display: inline-flex;
+    width: 100%;
+    display: inline-flex;
 }
 
-.header img{
+.logo img{
     width: 150px;
     height: 40px;
     padding: 17px 10px 5px 25px;
     border-right: 1px solid hsla(0,0%,100%,.3);
 }
-.nav{
+.nav-center{
+    width: 100%;
     padding: 25px;
 }
-.nav .nav-link{
+.nav-center .nav-link{
     text-decoration: none;
     color: #fff;
     font-weight: 600;
     font-size: 15px;
     padding: 0 15px;
 }
-.right-nav{
-    width: 60%;
+.nav-right{
+    width: 100%;
     text-align: right;
     padding: 25px;
     border-right: 1px solid hsla(0,0%,100%,.3);
-
-
 }
-.right-nav .nav-link{
+.nav-right .nav-link{
     text-decoration: none;
     color: #fff;
     font-weight: 600;
